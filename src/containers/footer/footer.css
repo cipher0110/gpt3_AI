@@ -1,0 +1,114 @@
+/* footer.css */
+
+.gpt3__footer {
+    background: var(--color-footer);
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .gpt3__footer-heading {
+    margin-bottom: 30px;
+  }
+  
+  .gpt3__footer-heading h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 75px;
+  }
+  
+  .gpt3__footer-btn {
+    margin-bottom: 30px;
+  }
+  
+  .gpt3__footer-btn p {
+    background-color: #ff5e62;
+    font-family: var(--font-family);
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .gpt3__footer-btn p:hover {
+    background-color: #f8b400;
+  }
+  
+  .gpt3__footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+  }
+  
+  .gpt3__footer-links_logo,
+  .gpt3__footer-links_div {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .gpt3__footer-links_logo img {
+    width: 118px;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .gpt3__footer-links_logo p {
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: var(--font-family);
+  }
+  
+  .gpt3__footer-links_div h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: var(--font-family);
+  }
+  
+  .gpt3__footer-links_div p {
+    margin: 5px 0;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: var(--font-family);
+    transition: color 0.3s ease;
+  }
+  
+  .gpt3__footer-links_div p:hover {
+    color: #ff5e62;
+  }
+  
+  .gpt3__footer-copyright {
+    margin-top: 30px;
+    font-size: 0.7rem;
+    font-family: var(--font-family);
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .gpt3__footer-heading h1 {
+      font-size: 1.5rem;
+    }
+  
+    .gpt3__footer-links {
+      text-align: center;
+    }
+  
+    .gpt3__footer-links_logo,
+    .gpt3__footer-links_div {
+      flex: 100%;
+      margin: 10px 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .gpt3__footer-heading h1 {
+      font-size: 1.2rem;
+    }
+  
+    .gpt3__footer-btn p {
+      padding: 8px 15px;
+    }
+  }
+  
